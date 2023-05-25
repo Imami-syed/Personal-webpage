@@ -1,0 +1,215 @@
+  .edu{
+    background-image: url(https://wallpaper.dog/large/38718.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .home{
+    background-image: url(https://wallpapercave.com/wp/wp3417340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .edudiv{
+    font-family: 'Festive', cursive;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(111, 134, 168);
+    height: 574px;
+    text-align: center;
+    font-size: 100px;
+  }
+  .cen{
+    text-align: center;
+  }
+  img{
+    border-radius: 8px;
+    /* width: 70%; */
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  .edup1{
+    color: rgb(86,116,154); text-shadow: 2px 2px 4px grey; text-align: center; font-size: 50px;
+    font-family: 'Tourney', cursive;
+  }
+  .edup2{
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: #E0FFFF;
+    font-size: 35px;
+    text-align: center;
+  }
+  #navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(223, 178, 123),bisque, white, bisque, rgb(223, 178, 123) );
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: #3d073fde;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-image: linear-gradient(black, white, black);
+      color: black;
+    }
+    
+    #navbar a.active {
+    background-image: linear-gradient(black, white, black);
+    color: black;
+  }
+  #navbarhome {
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(203, 111, 152),rgb(227, 167, 175), rgb(197, 174, 184),rgb(138,187,194),rgb(85,180,186),rgb(56,169,183),rgb(44,143,172),rgb(94,138,195),rgb(60,104,140));
+  }
+  #navbarhome a {
+    float: left;
+    display: block;
+    color: #3d073fde;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbarhome a:hover {
+    /* background-image: linear-gradient(rgb(60,104,140),rgb(94,138,195),rgb(44,143,172),skyblue, white,skyblue,rgb(44,143,172),rgb(94,138,195),rgb(60,104,140)); */
+    background-image: linear-gradient(to right,black, grey, white, grey, black);
+    color: black;
+  }
+  
+  #navbarhome a.active {
+    background-image: linear-gradient(to right,black, grey, white, grey, black);
+    color: black;
+  }
+  .btn-gradhome {
+    /* background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%) */
+    background-image: linear-gradient(to right, black 0%, white 50%, black 100%);
+    float: right;
+    color: white;
+  }
+  .btn-gradhome {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-gradhome:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  .btn-grad {
+    /* background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%) */
+    background-image: linear-gradient(to right, rgb(2,11,26) 0%, rgb(0,12,29) 12.5%,rgb(22,59,88) 25%, rgb(55,93,129) 50%,rgb(22,59,88) 75%, rgb(0,12,29) 87.5%,rgb(2,11,26) 100%);
+    float: right;
+    color: white;
+  }
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  #navbaredu {
+    overflow: hidden;
+    background-image: linear-gradient(rgb(2,11,26), rgb(0,12,29),rgb(22,59,88), rgb(55,93,129),rgb(22,59,88), rgb(0,12,29),rgb(2,11,26));
+  }
+  #navbaredu a {
+    float: left;
+    display: block;
+    color: rgb(225, 176, 81);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbaredu a:hover {
+    background-image: linear-gradient(rgb(134, 85, 19), rgb(225, 176, 81), rgb(231,191, 103),rgb(225, 176, 81),rgb(134, 85, 19));
+      color: black;
+    }
+    
+    #navbaredu a.active {
+    background-image: linear-gradient(rgb(134, 85, 19), rgb(225, 176, 81), rgb(231,191, 103),rgb(225, 176, 81),rgb(134, 85, 19));
+    color: black;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+ .fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background-image: linear-gradient( deeppink, red,deeppink, orange, yellow, white);
+  color: yellow;
+}
+
+h3{
+  font-family: Stint Ultra Condensed;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: navy; 
+  text-shadow: 2px 2px skyblue;
+}
+
+h2{
+  font-family: Stint Ultra Condensed;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(196, 132, 14); 
+  text-shadow: 2px 2px rgb(233, 233, 164);
+}

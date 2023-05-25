@@ -1,0 +1,61 @@
+
+table,
+thead,
+td {
+    border-collapse: collapse;
+}
+
+.achiev table {
+    background-color: white;
+}
+
+.achiev thead {
+    background-color: pink;
+}
+
+.achiev td {
+    border: 1px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px
+}
+
+.achiev th {
+    border: 2px solid black;
+    padding: 5px
+}
+
+.achiev table {
+    border: 2px solid black;
+}
+
+.interest_table th {
+    margin: 2px;
+    text-align: left;
+    font-weight: normal;
+    width: 20%;
+}
+
+.interest_table table {
+    width: 100%
+}
+
+.items {
+    margin: 1px;
+    box-shadow: 1px 1px rgb(255, 107, 181, .15);
+    height: 40px;
+}
+
+.items:not(.active_1):hover {
+    background-color: rgb(255, 107, 181, .55);
+}
+
+.active_1 {
+    background-color: rgb(255, 107, 181);
+}
+
+.non_active {
+    background-color: pink;
+}
+
+

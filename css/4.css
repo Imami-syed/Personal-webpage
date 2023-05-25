@@ -1,0 +1,11 @@
+
+.footer {
+    background-color: orange;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -100;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
